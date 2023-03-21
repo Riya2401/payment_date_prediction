@@ -6,7 +6,8 @@
 trigger:
 - main
 
-pool:devop1_pool
+pool:
+  devop1_pool
   
 steps:
 - script: echo Hello, world!
